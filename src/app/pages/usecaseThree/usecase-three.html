@@ -1,0 +1,23 @@
+<div ng-controller="usecaseThreePageCtrl">
+    <div id="pieChart" class="admin-chart" ng-controller="usecaseThreePageCtrl"></div>
+    <div ba-panel ba-panel-title="Use Case Three Data" ba-panel-class="with-scroll table-panel">
+        <div class="horizontal-scroll">
+            <table class="table table-condensed">
+                <thead>
+                    <tr>
+                        <th>Access zone</th>
+                        <th>Number of accesses</th>
+                        <th>Access type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in useCaseThreedata">
+                        <td>{{item.Acess_Zone}}</td>
+                        <td>{{item.NA_}}</td>
+                        <td>{{item.Access_Type}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
