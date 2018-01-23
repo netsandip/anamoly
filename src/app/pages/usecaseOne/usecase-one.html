@@ -1,0 +1,27 @@
+<div ng-controller="UsecaseOnePageCtrl">
+    <div>
+        <div id="pieChart" class="admin-chart" ng-controller="PieChartCtrl"></div>
+    </div>
+    
+    
+    <div ba-panel ba-panel-title="Use Case One Data" ba-panel-class="">
+        <div class="horizontal-scroll">
+            <table class="table table-condensed">
+                <thead>
+                    <tr>
+                        <th>Access zone</th>
+                        <th>Number of accesses</th>
+                        <th>Access type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in useCaseOnedata">
+                        <td>{{item.Acess_Zone}}</td>
+                        <td>{{item.NA_}}</td>
+                        <td>{{item.Access_Type}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
