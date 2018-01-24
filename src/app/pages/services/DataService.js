@@ -93,4 +93,22 @@ angular.module('BlurAdmin.pages')
             ]
             return data;
         }
+
+        this.getUseCaseFourData = function () {
+            var data = [
+                { "name": "880", "value": 4 },
+                { "name": "333", "value": 8 },
+                { "name": "451", "value": 2 },
+                { "name": "555", "value": 10 },
+                { "name": "222", "value": 4 },
+                { "name": "200", "value": 6 },
+                { "name": "451", "value": 2 },
+                { "name": "555", "value": 5 },
+                { "name": "111", "value": 4 },
+                { "name": "451", "value": 2 },
+                { "name": "321", "value": 5 },
+                { "name": "222", "value": 4 },
+            ]
+            return data;
+        }
     }]);
