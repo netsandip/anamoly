@@ -111,4 +111,44 @@ angular.module('BlurAdmin.pages')
             ]
             return data;
         }
+
+        this.getUseCaseFiveData = function () {
+            var data = [
+                ['Card number', 'Parent', 'Number of unauthorized accesses'],
+                ['Unauthorized', null, 0],
+                ['880', 'Unauthorized', 0],
+                ['333', 'Unauthorized', 0],
+                ['450', 'Unauthorized', 0],
+                ['820', 'Unauthorized', 0],
+                ['720', 'Unauthorized', 0],
+                ['721', 'Unauthorized', 0],
+
+                ['880 - Door 1', '880', 1],
+                ['880 - Door 2', '880', 22],
+                ['880 - Door 3', '880', 23],
+                ['880 - Door 4', '880', 4],
+                ['333 - Door 5', '333', 25],
+                ['333 - Door 6', '333', 6],
+                ['333 - Door 7', '333', 27],
+                ['333 - Door 8', '333', 18],
+                ['333 - Door 9', '333', 94],
+                ['333 - Door 10', '333', 10],
+                ['450 - Door 5', '450', 5],
+                ['450 - Door 6', '450', 6],
+                ['450 - Door 7', '450', 7],
+                ['450 - Door 8', '450', 8],
+                ['450 - Door 9', '450', 9],
+                ['450 - Door 10', '450', 40],
+                ['720 - Door 1', '720', 12],
+                ['720 - Door 2', '720', 12],
+                ['720 - Door 3', '720', 29],
+                ['720 - Door 4', '720', 40],
+                ['820 - Door 4', '820', 20],
+                ['721 - Door 1', '721', 12],
+                ['721 - Door 2', '721', 12],
+                ['721 - Door 3', '721', 9],
+                ['721 - Door 4', '721', 40],
+            ]
+            return data;
+        }
     }]);
